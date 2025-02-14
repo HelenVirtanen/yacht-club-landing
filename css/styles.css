@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0 auto;
     max-width: 1280px;
@@ -18,10 +17,24 @@ body {
     background-color: #FDFDFF;
 }
 
-
 h1, h2, h3, p {
     margin: 0;
 }
+
+h2 {
+    margin: 0;
+    margin-bottom: 55px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under; 
+}
+
+/* Alternative underline 
 
 h2 {
     position: relative;
@@ -39,25 +52,11 @@ h2::after {
     width: 268px;
     border: 2px solid #00C6BD;
 }
+  */
 
-h2.right::after {
-    content: "";
-    display: block;
-    position: absolute;
-    right: 0;
-    width: 217px;
-    border: 2px solid #00C6BD;
-}
 
 h2.contact-title {
     margin-top: 0;
-}
-
-h2.contact-title::after {
-    content: "";
-    display: block;
-    width: 113px;
-    border: 2px solid #00C6BD;
 }
 
 h3 {
@@ -194,6 +193,14 @@ time {
 .children {
     margin-bottom: 120px;
     flex-direction: row-reverse;
+}
+
+.team__title {
+    text-align: left;
+}
+
+.children__title {
+    text-align: right;
 }
 
 .children-content,
@@ -528,50 +535,6 @@ p.message-text {
     }
 }
 
-/*
-@media (max-width: 990px) {
-
-    .team-content,
-    .children-content {
-        width: 400px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .children-content {
-        text-align: left;
-    }
-
-    .hero {
-        align-items: center;
-    }
-
-    h2::after{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .site-navigation-item {
-        margin-right: 20px;
-    }
-}
-
-@media (max-width: 770px) {
-    .main-ship-img {
-        width: 700px;
-    }
-    
-    .team,
-    .children {
-    display: block;
-
-    .team-content,
-    .children-content {
-        width: 100%;
-    }
-    }
-} */
-
 
 @media (max-width: 990px) {
 
@@ -636,7 +599,7 @@ p.message-text {
         margin: 0 auto;
     }
 
-    .contact-title  {
+    .contacts__title  {
         text-align: center;
     }
 
