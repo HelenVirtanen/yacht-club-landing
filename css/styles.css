@@ -206,6 +206,158 @@ time {
 }
 
 
+/* Gallery */
+.gallery {
+    width: 1170px;
+    margin: 0 auto 120px;
+}
+
+.slider {
+    display: flex;
+    align-items: start;
+}
+
+.active-photo {
+    width: 970px;
+    height: 690px;
+    margin-right: 30px;
+}
+
+.preview-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 170px;
+}
+
+.preview-list li {
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.preview-list li:last-child {
+    margin-bottom: 0;
+}
+
+  /* News */
+.news {
+    width: 770px;
+    margin: 0 auto 120px;
+}
+
+.news h2 {
+    margin: 0;
+    margin-bottom: 55px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+.post-img {
+    margin: 0;
+    margin-bottom: 33px;
+}
+
+.post-img img {
+    margin-bottom: 17px;
+}
+
+.post-img figcaption {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8693a4;
+}
+
+.post h3 {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 27px;
+}
+
+.post p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+
+.post p:nth-child(2) {
+    margin-bottom: 24px;
+}
+
+.post-text {
+    margin-bottom: 38px;
+}
+
+.post h4 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.post ul {
+    margin: 0;
+    margin-bottom: 30px;
+    padding-left: 18px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.post li {
+    margin-bottom: 8px;
+}
+
+.post ins {
+    text-decoration: none;
+}
+
+.post blockquote {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-left: 2px solid #00c6bd;
+}
+
+p.message-text {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.post-footer {
+    display: flex;
+}
+
+.post-author-img {
+    margin-right: 15px;
+}
+
+.post-meta {
+    margin-right: auto;
+}
+
+.post-meta a {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    color: #163152;
+    text-decoration: none;
+}
+
+.post-meta time {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8693a4;
+    }
+
 /* Contacts */
 .contacts {
     display: flex;
