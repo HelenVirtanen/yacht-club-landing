@@ -713,7 +713,24 @@ p.message-text {
     .team-content,
     .children-content {
         width: 100%;
+        text-align: center;
     }
+
+    .team__title,
+    .children__title
+    {
+        text-align: center;
+    }
+
+    h2 {
+        text-underline-offset: 5px;
+        margin-bottom: 25px;
+    }
+
+    .content__text {
+        margin-bottom: 25px;
+    }
+
 
     .article-img {
         width: 100%;
@@ -884,6 +901,34 @@ p.message-text {
 
     .children {
         margin-bottom: 50px;
+    }
+
+    .gallery {
+        margin-bottom: 40px;
+    }
+
+    .preview-list li {
+        margin-right: 10px;
+    }
+
+    .post h3,
+    .post h4 {
+        text-align: center;
+    }
+
+    .post ul {
+        padding-left: 30px;
+        font-size: 16px;
+    } 
+
+    .post blockquote {
+        padding-left: 15px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .post-footer {
+        align-items: center;
     }
 
     .contacts {
