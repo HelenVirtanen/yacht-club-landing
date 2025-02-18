@@ -156,8 +156,8 @@ h3 {
     text-transform: uppercase;
 }
 
-.hero__main_img,
-.article-img {
+.hero__main-img,
+.article__img {
     max-width: 100%;
     height: auto;
 }
@@ -495,16 +495,16 @@ p.message__text {
     list-style: none;
 }
 
-.footer__nav_chunk {
+.footer__nav-chunk {
     width: 165px;
     margin-right: 70px;
 }
 
-.footer__nav_chunk:last-child {
+.footer__nav-chunk:last-child {
     margin-right: 0;
 }
 
-.footer__nav_sublist {
+.footer__nav-list {
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -512,11 +512,11 @@ p.message__text {
     margin: 0;
 }
 
-.footer__nav_chunk h2::after {
+.footer__nav-chunk h2::after {
     display: none;
 }
 
-.footer__list_title {
+.footer__nav-chunk-title {
     margin-top: 0;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -527,15 +527,15 @@ p.message__text {
     text-underline-offset: 0;
 }
 
-.footer__nav_item {
+.footer__nav-item {
     margin-bottom: 2px;
 }
 
-.footer__nav_item:last-child {
+.footer__nav-item:last-child {
     margin-bottom: 0;
 }
 
-.footer__nav_item a {
+.footer__nav-item a {
     font-size: 14px;
     line-height: 16px;
     text-decoration: none;
@@ -562,7 +562,7 @@ p.message__text {
         height: auto;
     }
 
-    .footer__nav_chunk {
+    .footer__nav-chunk {
         margin-right: 8px;
     }
 }
@@ -686,15 +686,15 @@ p.message__text {
         margin-right: 50px;
     }
 
-    .footer__nav_chunk {
+    .footer__nav-chunk {
         width: 130px;
     }
     
-    .footer__nav_chunk:first-chil {
+    .footer__nav-chunk:first-chil {
         width: 105px;
     }
 
-    .footer__nav_chunk:nth-child(2) {
+    .footer__nav-chunk:nth-child(2) {
         width: 115px;
     }
 }
@@ -852,12 +852,12 @@ p.message__text {
         margin: 0 auto 20px;
     }
 
-    .footer__nav_chunk {
+    .footer__nav-chunk {
         width: 100%;
         margin-bottom: 20px;
     }
 
-    .footer__nav_chunk:last-child {
+    .footer__nav-chunk:last-child {
         margin-bottom: 0;
     }
 }
@@ -991,18 +991,18 @@ p.message__text {
         text-align: left;
     }
 
-    .footer__nav_chunk {
+    .footer__nav-chunk {
         width: 50%;
         margin-right: 0;
         margin-bottom: 40px;
     }
 
-    .footer__nav_chunk:first-child,
-    .footer__nav_chunk:nth-child(2) {
+    .footer__nav-chunk:first-child,
+    .footer__nav-chunk:nth-child(2) {
         width: 50%;}
 
-    .footer__nav_item,
-    .footer__list_title {
+    .footer__nav-item,
+    .footer__nav-chunk-title {
         text-align: left;
     }
 }
