@@ -234,14 +234,14 @@ time {
     margin-right: 30px;
 }
 
-.gallery__preview_list {
+.gallery__preview-list {
     padding: 0;
     margin: 0;
     list-style: none;
     width: 170px;
 }
 
-.gallery__preview_list li {
+.gallery__preview-list li {
     margin: 0;
     padding: 0;
     width: 170px;
@@ -249,7 +249,7 @@ time {
     margin-bottom: 30px;
 }
 
-.gallery__preview_list li:last-child {
+.gallery__preview-list li:last-child {
     margin-bottom: 0;
 }
 
@@ -260,7 +260,7 @@ time {
     margin: 0 auto 120px;
 }
 
-.news h2 {
+.news__title {
     margin: 0;
     margin-bottom: 55px;
     font-size: 24px;
@@ -285,7 +285,7 @@ time {
     margin-bottom: 17px;
 }
 
-.post__img figcaption {
+.post__caption {
     font-size: 16px;
     line-height: 19px;
     color: #8693a4;
@@ -298,7 +298,6 @@ time {
 }
 
 .post p {
-    font-size: 18px;
     line-height: 26px;
     margin-bottom: 12px;
 }
@@ -308,17 +307,19 @@ time {
 }
 
 .post__text {
+    font-size: 18px;
     margin-bottom: 38px;
+    text-align: justify;
 }
 
-.post h4 {
+.post__subtitle {
     font-size: 20px;
     line-height: 26px;
     margin-top: 0;
     margin-bottom: 15px;
 }
 
-.post ul {
+.post__list {
     margin: 0;
     margin-bottom: 30px;
     padding-left: 18px;
@@ -326,7 +327,7 @@ time {
     line-height: 26px;
 }
 
-.post li {
+.post__list-item {
     margin-bottom: 8px;
 }
 
@@ -334,7 +335,7 @@ time {
     text-decoration: none;
 }
 
-.post blockquote {
+.post__quote {
     font-weight: bold;
     font-size: 26px;
     line-height: 36px;
@@ -346,7 +347,6 @@ time {
 
 p.message__text {
     font-size: 18px;
-    line-height: 26px;
     margin-bottom: 40px;
 }
 
@@ -354,7 +354,9 @@ p.message__text {
     display: flex;
 }
 
-.post__author_img {
+.post__author-photo {
+    width: 60px;
+    height: 60px;
     margin-right: 15px;
 }
 
@@ -362,7 +364,7 @@ p.message__text {
     margin-right: auto;
 }
 
-.post__meta a {
+.post__author-link {
     font-size: 16px;
     line-height: 19px;
     font-weight: bold;
@@ -370,7 +372,7 @@ p.message__text {
     text-decoration: none;
 }
 
-.post__meta time {
+.post__date {
     font-size: 16px;
     line-height: 19px;
     color: #8693a4;
@@ -623,11 +625,11 @@ p.message__text {
         width: 60%;
     }
 
-    .gallery__preview_list {
+    .gallery__preview-list {
         width: 130px;
     }
 
-    .gallery__preview_list li {
+    .gallery__preview-list li {
         width: 100%;
         height: 100px;
         margin-bottom: 11px;
@@ -749,18 +751,18 @@ p.message__text {
         margin-bottom: 20px;
     }
 
-    .gallery__preview_list {
+    .gallery__preview-list {
         display: flex;
         justify-content: space-between;
         width: 100%;
     }
 
-    .gallery__preview_list li {
+    .gallery__preview-list li {
         height: auto;
         margin-right: 20px;
     }
 
-    .gallery__preview_list li:last-child {
+    .gallery__preview-list li:last-child {
         margin-right: 0;
     }
 
@@ -914,7 +916,7 @@ p.message__text {
         margin-bottom: 40px;
     }
 
-    .gallery__preview_list li {
+    .gallery__preview-list li {
         margin-right: 10px;
     }
 
