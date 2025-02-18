@@ -386,10 +386,10 @@ p.message__text {
 }
 
 .contacts__map {
-    width: 100%;
-    height: auto;
-
+    width: 670px;
+    height: 351px;
 }
+
 .contacts__content {
     margin: auto;
     margin-left: 100px;
@@ -409,12 +409,12 @@ p.message__text {
     font-size: 16px;
 }
 
-.contacts__item h3 {
+.contacts__subtitle {
     font-size: 16px;
     margin-right: 10px;
 }
 
-.contacts__item p {
+.contacts__value {
     line-height: 22px;
 }
 
@@ -425,26 +425,31 @@ p.message__text {
     color: #163152;
 }
 
-.contacts__item.social {
+.contacts__social {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__social-item {
     display: block;
 }
 
-.social__list {
+.contacts__social-list {
     display: flex;
     list-style: none;
     margin-top: 15px;
     padding: 0;
 }
 
-.social__item {
+.contacts__social-item {
     margin-right: 15px;
 }    
 
-.social__item:last-child {
+.contacts__social-item:last-child {
     margin-right: 0;
 }
 
-.social__item a {
+.contacts__social-item a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -454,7 +459,7 @@ p.message__text {
     border-radius: 50%;
 }
 
-.social__item img {
+.contacts__social-item img {
     color: #163152;
 }
 
@@ -672,7 +677,7 @@ p.message__text {
         justify-content: center;
     }
 
-    .contacts__item h3 {
+    .contacts__subtitle {
         margin-right: 0;
     }
     
@@ -774,7 +779,7 @@ p.message__text {
         margin: 0 auto 20px;
     }
 
-    .social__list {
+    .contacts__social-list {
         justify-content: center;
     }
 }
@@ -959,12 +964,12 @@ p.message__text {
         justify-content: center;
     }
 
-    .contacts__item h3 {
+    .contacts__subtitle {
         margin-right: 0;
     }
 
 
-    .social__item a {
+    .contacts__social-item a {
         width: 30px;
         height: 30px;
     }
