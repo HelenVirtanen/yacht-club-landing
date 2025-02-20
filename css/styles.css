@@ -405,7 +405,6 @@ p.message__text {
 
 .contacts__item {
     display: flex;
-    align-items: center;
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 16px;
@@ -439,7 +438,7 @@ p.message__text {
 .contacts__social-list {
     display: flex;
     list-style: none;
-    margin-top: 15px;
+    margin: 15px auto 0;
     padding: 0;
 }
 
