@@ -569,7 +569,7 @@ p.message__text {
     }
 
     .footer__nav-chunk {
-        margin-right: 8px;
+        margin-right: 30px;
     }
 }
 
@@ -698,7 +698,7 @@ p.message__text {
         width: 130px;
     }
     
-    .footer__nav-chunk:first-chil {
+    .footer__nav-chunk:first-child {
         width: 105px;
     }
 
