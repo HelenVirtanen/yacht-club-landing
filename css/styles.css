@@ -652,6 +652,8 @@ p.message__text {
 
     .contacts__map {
         order: 2;
+        width: 100%;
+        height: auto;
     }
 
     .contacts__content {
