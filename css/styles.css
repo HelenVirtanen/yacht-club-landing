@@ -604,11 +604,6 @@ p.message__text {
         margin-right: auto;
     }
 
-    .team,
-    .children {
-        padding: 0 20px;
-    }
-
     .team__content,
     .children__content {
         width: 40%;
@@ -756,6 +751,7 @@ p.message__text {
     .gallery__preview-list li {
         height: auto;
         margin-right: 20px;
+        margin-bottom: 0;
     }
 
     .gallery__preview-list li:last-child {
