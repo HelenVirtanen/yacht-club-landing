@@ -23,7 +23,7 @@ h1, h2, h3, p {
 
 h2 {
     margin: 0;
-    margin-bottom: 55px;
+    margin-bottom: 45px;
     font-size: 24px;
     line-height: 34px;
     text-align: center;
@@ -33,26 +33,6 @@ h2 {
     text-underline-offset: 15px;
     text-underline-position: under; 
 }
-
-/* Alternative underline 
-
-h2 {
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 18px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 34px;
-}
-
-h2::after {
-    content: "";
-    display: block;
-    margin-top: 15px;
-    width: 268px;
-    border: 2px solid #00C6BD;
-}
-  */
 
 
 h2.contact-title {
@@ -174,10 +154,12 @@ h3 {
     margin: 0 auto;
 }
 
-.content-date {
+.article__date {
     margin: 0;
+    margin-bottom: 8px;
     padding: 0;
 }
+
 
 time {
     font-size: 14px;
@@ -211,6 +193,10 @@ time {
     text-align: right;
 }
 
+.content__text {
+    font-size: 18px;
+}
+
 
 /* Gallery */
 .gallery {
@@ -223,14 +209,9 @@ time {
     align-items: start;
 }
 
-.gallery__photo {
-    width: 100%;
-    height: 100%;
-}
-
 .gallery__photo_active {
     width: 970px;
-    height: 690px;
+    height: auto;
     margin-right: 30px;
 }
 
@@ -249,6 +230,10 @@ time {
     margin-bottom: 30px;
 }
 
+.gallery__photo {
+    width: 100%;
+    height: 100%;
+}
 .gallery__preview-list li:last-child {
     margin-bottom: 0;
 }
@@ -558,7 +543,7 @@ p.message__text {
     }
 
     .gallery__photo_active {
-        width: 100%;
+        width: 80%;
         height: auto;
         margin-right: 20px;
     }
@@ -566,6 +551,10 @@ p.message__text {
     .gallery__photo {
         width: 100%;
         height: auto;
+    }
+
+    .gallery__preview-list li {
+        margin-bottom: 0;
     }
 
     .footer__nav-chunk {
@@ -589,10 +578,6 @@ p.message__text {
         width: 400px;
         margin-right: auto;
         margin-left: auto;
-    }
-
-    .children__content {
-        text-align: left;
     }
 
     .hero {
@@ -621,7 +606,7 @@ p.message__text {
     }
 
     .article__img {
-        width: 60%;
+        width: 500px;
     }
 
     .gallery__preview-list {
@@ -631,7 +616,7 @@ p.message__text {
     .gallery__preview-list li {
         width: 100%;
         height: 100px;
-        margin-bottom: 11px;
+        margin-bottom: 21px;
     }
 
     .gallery__photo {
@@ -749,6 +734,7 @@ p.message__text {
     }
 
     .gallery__photo_active {
+        width: 100%;
         margin-bottom: 20px;
     }
 
