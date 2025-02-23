@@ -204,6 +204,10 @@ time {
     margin: 0 auto 120px;
 }
 
+.gallery__title {
+    font-size: 30px;
+}
+
 .slider {
     display: flex;
     align-items: start;
@@ -248,7 +252,7 @@ time {
 .news__title {
     margin: 0;
     margin-bottom: 55px;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 34px;
     text-align: center;
     text-decoration: underline;
@@ -541,6 +545,11 @@ p.message__text {
     .hero {
         align-items: center;
     }
+
+    .children__content,
+    .team__content {
+        margin: 0 30px;
+}
 
     .gallery__photo_active {
         width: 80%;
@@ -844,6 +853,16 @@ p.message__text {
     .children__content {
         text-align: center;
         margin: 0 auto 20px;
+        padding: 0 15px;
+    }
+
+    .content__text {
+        font-size: 16px;
+    }
+
+    .news__title {
+        font-size: 18px;
+        text-underline-offset: 5px;
     }
 
     .footer__nav-chunk {
