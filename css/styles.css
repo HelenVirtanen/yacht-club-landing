@@ -776,6 +776,14 @@ p.message__text {
     .contacts__social-list {
         justify-content: center;
     }
+
+    .site-navigation {
+        margin-right: 16px;
+    }
+
+    .site-navigation-item {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 565px) {
