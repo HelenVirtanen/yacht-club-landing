@@ -856,9 +856,14 @@ p.message__text {
         font-size: 16px;
     }
 
-    .news__title {
+    .news__title,
+    .gallery__title {
         font-size: 18px;
         text-underline-offset: 5px;
+    }
+
+    .news__title {
+        margin-bottom: 20px;
     }
 
     .footer__nav-chunk {
