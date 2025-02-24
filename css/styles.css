@@ -989,6 +989,7 @@ p.message__text {
     }
 
     .footer__copyright {
+        display: flex;
         width: 100%;
         margin-bottom: 40px;
         margin-right: 0;
@@ -998,6 +999,15 @@ p.message__text {
         width: 50px;
         height: auto;
         margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    .footer__copyright-content {
+        margin: auto 0;
+    }
+    
+    .footer__confinfo {
+        margin-bottom: 5px;
     }
 
     .footer__nav {
